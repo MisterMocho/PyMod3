@@ -16,7 +16,7 @@ def ft_score_analytics() -> None:
                 scores.append(int(arg))
         except ValueError:
             print(
-                "In order to your quest complete "
+                "In order to your quest complete... "
                 "a number valid, type you must\n"
             )
             return
@@ -37,6 +37,7 @@ def ft_score_analytics() -> None:
 
 if __name__ == "__main__":
     ft_score_analytics()
+
 
 
 
