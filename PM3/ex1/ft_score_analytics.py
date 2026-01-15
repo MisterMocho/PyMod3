@@ -2,6 +2,7 @@ import sys
 
 
 def ft_score_analytics() -> None:
+    """function that takes console arguments and creates a list of ints"""
     print("=== Player Score Analytics ===")
     if (len(sys.argv) == 1):
         print(
@@ -37,3 +38,4 @@ def ft_score_analytics() -> None:
 
 if __name__ == "__main__":
     ft_score_analytics()
+
