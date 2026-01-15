@@ -20,10 +20,10 @@ def ft_score_analytics() -> None:
                 "a number type you must\n"
             )
             return
-        total = sum(scores)
-        nb_players = len(scores)
-        max_score = max(scores)
-        min_score = min(scores)
+        total: int = sum(scores)
+        nb_players: int = len(scores)
+        max_score: int = max(scores)
+        min_score: int = min(scores)
         print(
             f"Scores processed: {scores}\n"
             f"Total players: {nb_players}\n"
@@ -37,5 +37,6 @@ def ft_score_analytics() -> None:
 
 if __name__ == "__main__":
     ft_score_analytics()
+
 
 
