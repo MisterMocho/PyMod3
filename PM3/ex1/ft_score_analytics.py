@@ -17,7 +17,7 @@ def ft_score_analytics() -> None:
         except ValueError:
             print(
                 "In order to your quest complete "
-                "a number type you must\n"
+                "a number valid, type you must\n"
             )
             return
         total: int = sum(scores)
@@ -37,6 +37,7 @@ def ft_score_analytics() -> None:
 
 if __name__ == "__main__":
     ft_score_analytics()
+
 
 
 
