@@ -12,13 +12,12 @@ def ft_score_analytics() -> None:
     else:
         scores: list[int] = []
         try:
-            for i in range(1, len(sys.argv)):
-                score = int(sys.argv[i])
-                scores.append(score)
+            for arg in sys.argv[1:]:
+                scores.append(int(arg))
         except ValueError:
             print(
                 "In order to your quest complete"
-                "a number valid type you must\n"
+                "a number type you must\n"
             )
             return
         total = sum(scores)
@@ -38,4 +37,5 @@ def ft_score_analytics() -> None:
 
 if __name__ == "__main__":
     ft_score_analytics()
+
 
