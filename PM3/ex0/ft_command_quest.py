@@ -2,6 +2,7 @@ import sys
 
 
 def ft_command_quest() -> None:
+    """a small function that takes console args and displays them"""
     print("=== Command Quest ===")
     if (len(sys.argv) == 1):
         print(
@@ -21,3 +22,4 @@ def ft_command_quest() -> None:
 
 if __name__ == "__main__":
     ft_command_quest()
+
